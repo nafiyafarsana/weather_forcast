@@ -50,7 +50,6 @@ def main():
                 closest_time_diff = time_diff
 
         # Extract weather information for closest forecast time
-        # After extracting weather information
         if closest_forecast_time:
             weather_data = forecast
             print(f"Weather data for closest time ({closest_forecast_time}):")
